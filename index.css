@@ -1,0 +1,67 @@
+body{
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+.maindiv{
+    background: url(istockphoto.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 90px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: goldenrod;
+    font-size: 30px;
+    /* margin-top: 30px; */
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+#startGame-btn{
+    background: goldenrod;
+    color: rgb(44, 124, 44);
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom:0px;
+}
+#startGame-btn:hover,#newCard-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: green;
+    
+
+}
+
+#newCard-btn{
+    background: goldenrod;
+    color: rgb(44, 124, 44);
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom:0px;
+}
+i{
+    font-size: 9px;
+    color: #808082;
+    font-weight: bold;
+}
+hr{
+    width: 90px;
+
+   
+}
